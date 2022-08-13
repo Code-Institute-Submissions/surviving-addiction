@@ -46,3 +46,143 @@ h1 {
     float: right;
     color: red;
 }
+
+
+
+/* headings and logo */
+
+#logo-box {
+    height: 200px;
+    width: 100%;
+    background-color: #64766a;
+    margin-top: 30px;
+}
+
+#logo-text {
+    text-align: center;
+    font-size: 480%;
+    color: #f4f2f3;
+    padding-top: 40px;
+    text-transform: uppercase;
+
+}
+
+#logo-text:hover {
+    color: #c0a9bd;
+}
+
+#logo-box a {
+    text-decoration: none;
+}
+
+
+/* navigation links */
+
+#nav {
+    height: 65px;
+    text-align: center;
+}
+
+#menu {
+    background-color: rgb(192, 169, 189, .5);
+}
+
+#menu li {
+    font-size: 110%;
+    letter-spacing: 2px;
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 50px;
+    padding: 15px 0 25px 0;
+    margin-top: 5px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+#menu a:hover {
+    background-color: #c0a9bd;
+}
+
+.active {
+    background-color: #c0a9bd;
+
+}
+
+
+/* addiction image */
+
+#addiction-outer {
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+#addiction-img {
+    height: 500px;
+    width: 100%;
+    opacity: .8;
+    background-image: url('../images/pills.jpg');
+
+    /* background-repeat: no-repeat; */
+
+    /* animates zoom effect on loading page */
+    animation-name: addiction-zoom;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+
+}
+
+
+/* creates the level of zoom for the addiction image */
+@keyframes addiction-zoom {
+    from {
+        transform: scale(1);
+
+    }
+
+    to {
+        transform: scale(1.1);
+
+    }
+}
+
+
+#cover-text {
+    font-size: 130%;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    width: 600px;
+    height: 200px;
+
+    padding: 25px 30px 10px 30px;
+
+    background-color: rgb(198, 51, 83);
+    border-radius: 1rem;
+
+
+    top: 500px;
+    left: 150px;
+    position: absolute;
+
+}
+
+
+#cover-h2 {
+    color: #f4f2f3;
+    font-size: 25px;
+}
+
+#cover-p {
+    text-transform: none;
+    color: #f4f2f3;
+    padding-top: 15px;
+}
+
