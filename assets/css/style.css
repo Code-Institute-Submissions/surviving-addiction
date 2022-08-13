@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+
+}
+
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color: #64766a;
+}
+
+
+
+/* headings */
+
+h1 {
+    color: #64766a;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+}
+
+/* emergency top text */
+
+#emer-bg {
+    height: 30px;
+    font-size: 20px;
+    margin: 5px 20px 0 20px;
+}
+
+#emer-top-text-left {
+    font-size: 20px;
+    color: #64766a;
+
+}
+
+#emergency-top-text-right {
+    font-size: 20px;
+    float: right;
+    color: red;
+}
